@@ -1,0 +1,163 @@
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.container.dark {
+  background-color: #2b2b2b;
+  color: #f1f1f1;
+  border-color: #555555;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header-box h2 {
+  margin: 0;
+}
+
+.btn-toggle {
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.api-box {
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.api-box input {
+  width: 60%;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.search-box {
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.container.dark .form-box {
+  background-color: #383838;
+  border-color: #555;
+}
+
+.form-box h3 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 80px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 6px;
+  width: 200px;
+}
+
+.container.dark input,
+.container.dark select {
+  background-color: #4a4a4a;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.error {
+  color: #ff4d4f;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.status-message {
+  font-style: italic;
+  color: #0d6efd;
+}
+
+.table-box {
+  margin-top: 20px;
+}
+
+.table-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-box th,
+.table-box td {
+  padding: 8px;
+  text-align: left;
+}
+
+.container.light .table-box th {
+  background-color: #eee;
+}
+
+.container.dark .table-box th {
+  background-color: #444;
+  color: #fff;
+}
+
+.container.dark .table-box td,
+.container.dark .table-box table {
+  border-color: #555;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.container.dark button {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+}
+
+hr {
+  margin: 25px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.container.dark hr {
+  border-top-color: #555;
+}
+
+.clock-box {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px dashed #aaa;
+  text-align: center;
+}
